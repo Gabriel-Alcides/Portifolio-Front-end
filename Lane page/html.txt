@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moscas-Brancas</title>
+    <!-- Text font -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>Moscas-Brancas</h2>
+        <p class="about-event">
+          Um evento de colecionadores para colecionadores
+        </p>
+        <p>Data do evento:</p>
+        <p class="event-date">Domingo, 4 de Fevereiro, a partir das 14h</p>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu melhor e-mail" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de Whatsapp" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="apartment">Raridades</option>
+              <option value="house">Esportivas</option>
+              <option value="garden">Big trail</option>
+              <option value="other">Outro</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+      
+    </section>
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Rua do evento, 1333</p>
+          <p>Bairro</p>
+          <p>Abertura: 14h</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+          O evento será realizado em um local prestigiado pelos amantes de
+          motos, onde teremos várias atraçoes para o publico, tanto
+          tanto adulto quanto infantil.
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="hrz-1.1.jpg.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Conheça o ambiente do evento com aulas gratuitas!!</h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <h3>Detalhes:</h3>
+          <ul>
+            <li>Posicionamento em pista</li>
+            <li>Aproveitamento de espaço na pista</li>
+            <li>tecnincas de aceleração e frenagem</li>
+            <li>concentraçao ao pilotar </li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+        <img src="img/hrz-4.jpg" alt="" />
+      </div>
+      <div class="detail" id="detail-3">
+        <img src="img/hrz-5.jpg" alt="" />
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Gostou? Então se inscreva:</h3>
+      <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+      <h3>Moscas-Brancas</h3>
+      <p>Um evento para amantes das duas rodas</p>
+      <p><span>Entre em contato:</span> oi@Moscas-Brancas.com.br</p>
+      <p><span>Ou pelo telefone:</span> (55)99990-9999</p>
+    </footer>
+  </body>
+</html>
+
